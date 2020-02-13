@@ -26,12 +26,30 @@
 #   different date format. For example, to convert date value,
 #   $date1, to day of the week of date1, use:
 
+# Change this code
 BIRTHDATE="Jan 1, 2000"
-echo $BIRTHDATE
 Presents=10
+BIRTHDAY=`date -d "$BIRTHDATE" +%A`
+# echo `date -d "$BIRTHDATE" +%A`
 
-# BIRTHDAY=$(date -d "$BIRTHDATE" +%A)
-date -d "Jan 1, 2000" +%A
+
+# Testing code - do not change it
+
+if [ "$BIRTHDATE" == "Jan 1, 2000" ] ; then
+    echo "BIRTHDATE is correct, it is $BIRTHDATE"
+else
+    echo "BIRTHDATE is incorrect - please retry"
+fi
+if [ $Presents == 10 ] ; then
+    echo "I have received $Presents presents"
+else
+    echo "Presents is incorrect - please retry"
+fi
+if [ "$BIRTHDAY" == "Saturday" ] ; then
+    echo "I was born on a $BIRTHDAY"
+else
+    echo "BIRTHDAY is incorrect - please retry"
+fi
 
 
 
