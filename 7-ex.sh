@@ -4,7 +4,7 @@ STRING="this is a string testing it"
 SUBSTRING="rs"
 
 # TEST: 4 is the position of the first 'r or s' in $STRING
-echo "TEST $SUBSTRING is located at "$(expr index "$STRING" "$SUBSTRING") 
+echo "TEST ' $SUBSTRING ' is located at "$(expr index "$STRING" "$SUBSTRING") 
 
 # Extracting String
 POS=5
