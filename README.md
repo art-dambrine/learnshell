@@ -1,6 +1,6 @@
 # learnshell
 
-Check [learnshell adoc **@art-dambrine.ovh**](https://art-dambrine.ovh/asciidoc/docs/Learnshell.html)
+Check [learnshell adoc **@art-dambrine.ovh**](https://art-dambrine.ovh/blog/docs/Learnshell.html)
 
 
 # Special Commands 
